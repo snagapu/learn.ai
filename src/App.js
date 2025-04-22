@@ -15,7 +15,7 @@ function App() {
     if (!question.trim()) return;
     setLoading(true);
     try {
-      const response = await fetch("https://your-backend.onrender.com/api/tutor", {
+      const response = await fetch("https://learn-ai-c8w5.onrender.com/api/tutor", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
